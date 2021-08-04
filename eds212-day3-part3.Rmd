@@ -1,0 +1,36 @@
+---
+title: "EDS 212 Day 3 Part 3"
+author: "Wylie Hampson"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Homework Check!
+
+Create vectors a and b from the day 3 task and check the work I did by hand.
+
+```{r}
+# Create the vectors
+
+vec_a <- c(1, 6)
+
+vec_b <- c(2, 4)
+
+# Not check the work!
+
+vec_a + vec_b
+
+vec_b - vec_a
+
+4 * vec_a
+
+vec_a %*% vec_b
+
+# It all looks good!
+```
+
+
+
